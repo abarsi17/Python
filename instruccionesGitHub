@@ -1,3 +1,13 @@
+CLONE THE REPOSITORY
+git clone git https://github.com/abarsi17/Python.git
+
+//dentro del vscode
+1.añadirlo
+2.poner mensaje commit 
+3.confirmar (tick)
+4.en terminal -> git push
+
+
 CREATE A NEW REPOSITORY ON COMMAND LINE
 
 echo "# Python" >> README.md
