@@ -21,17 +21,17 @@ class Guitarra(Instrumento):
 instrumento = Instrumento(100)
 instrumento.tocar()
 guit = Guitarra(2, True)
-print guit.cuerda
+print (guit.cuerda)
 
 #HERENCIA MULTIPLE
 """un objeto puede heredar de mas de una clase"""
 class Terrestre:
     def desplazar(self):
-        print "El animal anda"
+        print ("El animal anda")
 
 class Acuatico:
     def nadar(self):
-        print "El animal nada"
+        print ("El animal nada")
 
 #en este caso como hereda de dos clases, le pasamos ambas
 class Cocodrilo(Terrestre, Acuatico):

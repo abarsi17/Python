@@ -1,18 +1,18 @@
 
 #FUNCIONES
 def mi_funcion (param1):
-    print param1
+    print (param1)
 
 """se utiliza *otros, para pasarle un valor o mas de un valor"""
 def funcion (*otros):
     for elemento in otros:
-        print elemento
+        print (elemento)
 
 funcion(1,2,3)
 
 def varios(param1, param2, **otros):
        for i in otros.items():
-           print i
+           print (i)
 varios(1, 2, tercero = 3)
 
 def f(x, y): 
