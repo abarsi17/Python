@@ -18,6 +18,10 @@ t = (1, 2, 3)
 d = {"Love Actually": "Richard Curtis", "Kill Bill": "Tarantino", "Amelie": "Jean-Pierre Jeunet"}
 # mostrar por pantalla el dicionario
 print (d["Love Actually"])
+#crear un array vació
+vacio = []
+#crear un array con diez 0's
+vacio = [0 for i in range(10)]
 
 # BUCLES FOR
 """ sumarle uno a cada elemento de la lista
