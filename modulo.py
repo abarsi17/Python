@@ -6,5 +6,3 @@ class MiClass:
     b = 2
     def __init__(self):
         print("un clase")
-
-print ("un modulo")
