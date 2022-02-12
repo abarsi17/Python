@@ -5,7 +5,13 @@ boolT = True
 boolF = False
 
 # mostrar por pantalla el valor de la variable c
-print (c)
+print(c)
+print(edad, boolF)
+print('hola %s' %edad)
+print("holA", edad)
+print(f'Hola {edad}')
+
+
 
 """ comentar un 
     un paragrafo """
