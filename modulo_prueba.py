@@ -1,6 +1,7 @@
 """"""
 """TRES MANERAS DE IMPORTAR"""
 from PRUEBAS.fichero import main #--> directamente main() ya funcionaría
+from PRUEBAS.fichero import * #--> directamente cualquier función ya funcionaría
 from PRUEBAS import fichero #--> fichero.main()
 import PRUEBAS.fichero #--> PRUEBAS.fichero.main()
 
