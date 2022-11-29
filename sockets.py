@@ -8,7 +8,8 @@ import socket
 from subprocess import Popen
 
 #Remote Host
-RHOST = 'localhost'
+#RHOST = 'localhost'
+RHOST = '127.0.0.1'
 
 #Remote PORT
 RPORT = 8043
