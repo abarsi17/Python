@@ -1,1 +1,1 @@
-__all__ = ["bienvenido", "cliente"]
+__all__ = ["bienvenido", "cliente", "plazas", "resta"]

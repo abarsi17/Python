@@ -3,7 +3,7 @@
 import random
 
 def llegada_cliente():
-    return random.randgrade(1,5)
+    return random.randint(1,5)
 
 if __name__ == '__main__':
-    print("Llegada de ", llegada_cliente(), " cliente(s).")
+    print("Llegada de", llegada_cliente(), "cliente(s).")
