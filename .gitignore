@@ -1,0 +1,5 @@
+# Para evitar archivos MAC
+*.DS_store
+
+# Archivos creados por Python
+__pycache__/
