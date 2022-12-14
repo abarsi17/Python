@@ -1,19 +1,32 @@
 #Abrir fichero
-ficheroRead = open('texto.txt', 'r')
+##ficheroRead = open('prueba.txt', 'r')
+ficheroRead = open('prueba.txt')
+
 #Leer fichero entero
 ##entero = ficheroRead.read()
 
 #Leer líneas enteras
 lineas = ficheroRead.readline()
 
-#Leer carácter a carácter
-#caracter = ficheroRead.readline(1)
+#Leer todas las líneas
+##lineas = ficheroRead.readlines()
 
-ficheroWrite = open('prueba.txt', 'w')
+#Leer carácter a carácter
+##caracter = ficheroRead.readline(1)
+
+ficheroWrite = open('pruebaWrite.txt', 'w')
+
+for l in lineas:
+    print("linea = %s" % l)
 
 for char in lineas:
     if char == "a":
         ficheroWrite.write(char)
 
+"""for l in ficheroRead:
+    print("l = %s" % l, end='')
+"""
+
 ficheroWrite.close()
-fichero.close()
+
+ficheroRead.close()
