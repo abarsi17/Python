@@ -3,3 +3,6 @@
 
 # Archivos creados por Python
 __pycache__/
+
+# Archivos .txt
+*.txt
