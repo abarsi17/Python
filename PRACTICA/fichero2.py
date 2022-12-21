@@ -11,11 +11,13 @@ for l in a.readlines():
     cont += 1"""
 
 with open(archivo) as f:
-    for l in f:
-        user, pswd, id_u, id_g, com, home, shell = l.split(':')
-        print("User = %s" % user)
-        print("UID = %s" % id_u)
-        print("GID = %s" % id_g)
-        print("COMMENT = %s" % com)
-        print("Home = %s" % home)
-        print("Shell = %s" % shell)
+    for index, l in enumerate(f):
+        # Ya que el archivo al principio contiene comentarios
+        if l[0] != '#':
+            user, pswd, id_u, id_g, com, home, shell = l.split(':')
+            print("User = %s" % user)
+            print("UID = %s" % id_u)
+            print("GID = %s" % id_g)
+            print("COMMENT = %s" % com)
+            print("Home = %s" % home)
+            print("Shell = %s" % shell)
