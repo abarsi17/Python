@@ -1,9 +1,4 @@
-""""""
-"""TRES MANERAS DE IMPORTAR"""
-from PRUEBAS_MODULOS.fichero import main #--> directamente main() ya funcionaría
-from PRUEBAS_MODULOS.fichero import * #--> directamente cualquier función ya funcionaría
-from PRUEBAS_MODULOS import fichero #--> fichero.main()
-import PRUEBAS_MODULOS.fichero #--> PRUEBAS.fichero.main()
+# Importar paquete que se almacena en la misma path
 
 import modulo
 import time
