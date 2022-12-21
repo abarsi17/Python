@@ -1,1 +1,0 @@
-# Lectura de un archivo del sistema
