@@ -16,8 +16,8 @@ def leet():
 
     while text != "exit":
         newText = ""
-        print("Introduce un texto (para salir introduzca 'exit'): ")
-        text = input()
+        text = input("Introduce un texto (para salir introduzca 'exit'): ")
+        text.lower()
         for char in text:
             if char != " ":
                 pos = ord(char)-97
