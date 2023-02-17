@@ -6,3 +6,6 @@ __pycache__
 
 # Archivos .txt
 *.txt
+
+# Archivos CSV
+*.csv
